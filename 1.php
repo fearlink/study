@@ -16,7 +16,6 @@
  * 3. Require the google/apiclient library
  *    $ composer require google/apiclient:~2.0
  *
- * ,
  */
 if ( ! file_exists( $file = __DIR__ . '/vendor/autoload.php' ) ) {
 	throw new \Exception( 'please run "composer require google/apiclient:~2.0" in "' . __DIR__ . '"' );
