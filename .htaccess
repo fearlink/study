@@ -1,0 +1,7 @@
+DirectoryIndex index.php
+Options -Indexes
+
+RedirectMatch 404 /*\.txt
+
+# Настройки php.ini
+# php_flag display_startup_errors off
